@@ -1,0 +1,43 @@
+main {
+    display: flex;
+}
+
+
+/* Div 1 Dados*/
+.d1 {
+    width: 30%;
+    height: 650px;
+    background-color: #222;
+    color: #fff;
+}
+.d1 p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+/* Div 2 Treinos */
+.d2 {
+    width: 70%;
+    height: 650px;
+    background-color: #eee;
+    display: flex;
+}
+.d2-d1, .d2-d2, .d2-d3 {
+    width: 33.3%;
+    height: 650px;
+    border-left: 1px #000 solid;
+}
+.d2 h2 {
+    border-bottom: 1px #000 solid;
+}
+.treino {
+    text-align: left;
+    padding: 5%;
+}
+
+/* Logout */
+.logout {
+    color: #fff;
+    font-size: 1.3em;
+}
